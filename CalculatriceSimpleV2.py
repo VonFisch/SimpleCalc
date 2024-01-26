@@ -6,7 +6,6 @@
 # Auteur : Grégoire Fischer
 # Date   : 30.08.23
 #Bibiliotèque Tkinter
-import MaLibrairie
 import tkinter as tk
 #déclaration des variables
 valeurCalcul = ""
@@ -24,7 +23,6 @@ def effacer():
     valeurCalcul = ""
     eqNum.set("")
 #affichage de la console des données du developpeur
-MaLibrairie.effacer_console()
 print("Orif - Projets personnels Python – Grégoire Fischer")
 print("Le programme calcule des opérations simples avec une saisie par interface graphique")
 print("___________________________________________________________________________________")
