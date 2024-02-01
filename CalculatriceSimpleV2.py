@@ -30,7 +30,7 @@ print()
 #création de la fenetre
 fenetre = tk.Tk()
 fenetre.title("Calculatrice")
-fenetre.geometry("365x310")
+fenetre.geometry("365x305")
 fenetre['bg'] = '#001a00'
 fenetre.resizable(width=False, height=False)
 #boutons pavé numérique et opérateurs
